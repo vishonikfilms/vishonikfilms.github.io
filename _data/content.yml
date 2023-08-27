@@ -29,17 +29,17 @@ hero_under:
   items:
     - title: "Research And Discovery"
       subtitle: "Morbi interdum mollis sapien."
-      link: "/services/"
+      link: "#"
       image: "assets/img/serv-u-1.svg"
 
     - title: "Planning For The Future"
       subtitle: "Phasellus lacinia, ullamcorper laoreet."
-      link: "/services/"
+      link: "#"
       image: "assets/img/serv-u-2.svg"
 
     - title: "Building Your Brand"
       subtitle: "Pulvinar risus, vitae facilisis dolor."
-      link: "/services/"
+      link: "#"
       image: "assets/img/serv-u-3.svg"
 
 ### Marketing One [ marketing-one ]
@@ -48,9 +48,9 @@ marketing_one:
   title: "Vishonik Films: Where Creativity, Innovation, and Imagination Unite"
   subtitle: "What We Do"
   intro: "Unveiling a New Dimension in Visual Storytellings"
-  description: "At Visionik Films, we don't just create ads; we craft captivating visual narratives that transcend boundaries and resonate with audiences on a profound level. Our commitment to pushing the boundaries of creative expression is matched only by our dedication to technical excellence."
+  description: "At Vishonik Films, we don't just create ads; we craft captivating visual narratives that transcend boundaries and resonate with audiences on a profound level. Our commitment to pushing the boundaries of creative expression is matched only by our dedication to technical excellence."
   button: "Discover More"
-  link: "/about/"
+  link: "#"
 
 
 
@@ -60,10 +60,10 @@ services_two:
   subtitle: "Precision in Every Creative Endeavor."
   list:
     - label: "A Symphony of Professionalism"
-      value: "At the core of our ethos is an unwavering commitment to professionalism. With every project we undertake, we infuse a level of sophistication and dedication that guarantees a seamless and refined outcome.."
+      value: "At the core of our ethos is an unwavering commitment to professionalism. With every project we undertake, we infuse a level of sophistication and dedication that guarantees a seamless and refined outcome."
     
     - label: "Mastering Technical Proficiency"
-      value: "Our journey is driven by technical excellence. Through a profound mastery of our craft, we elevate every project to new heights, ensuring that each detail is flawlessly executed and meticulously polished.."
+      value: "Our journey is driven by technical excellence. Through a profound mastery of our craft, we elevate every project to new heights, ensuring that each detail is flawlessly executed and meticulously polished."
 
     - label: "Detail as a Signature"
       value: "It's in the details where true brilliance emerges. Our passion lies in the meticulous attention we dedicate to every aspect of your project. This dedication ensures that every creation stands as a testament to our commitment to excellence."
@@ -73,9 +73,23 @@ services_two:
   button: "More Services"
   link: "/services/"
 
+### About One [ about-one ]
+about_one:
+  title: "Leadership"
+  subtitle: ""
+  text: "
+    <p><b>Vishnu Jayaprakash</b> is a master craftsman with an experience of over 7 years and 60 projects under his belt. He also has tremendous experience in all aspects of advertising and ﬁlm making being worked as copywriter, line producer, producer, and creative director, ad consultant, and director. </p>
+    "
+  signature: "assets/img/signature.png"
+  name: "CEO, Vishnu Jayaprakash"
+  button: "Meet The Team"
+  link: "/team/"
+  image: "assets/img/about.jpg"
+
+
 ### Brands [ brands-two ]
 brands_two:
-  title: "Brands We Work With."
+  title: "Associated Clients."
   items:
     - title: "Brand"
       alt: "brand"
@@ -121,7 +135,8 @@ brands_two:
     - title: "Walkaroo"
       alt: "walkaroo"
       image: "assets/img/brands/walkaroo.png"
-
+  button: "Previous Works"
+  link: "https://www.youtube.com/@VishnuJayaprakash/videos"
 
 
 ### Services [ services ]
@@ -257,18 +272,28 @@ benefits_two:
 
 
 
-### About One [ about-one ]
-about_one:
-  title: "Leadership"
-  subtitle: "Founder"
-  text: "
-    <p><b>Vishnu Jayaprakash</b> is a master craftsman with an experience of over 7 years and 60 projects under his belt. He also has tremendous experience in all aspects of advertising and ﬁlm making being worked as copywriter, line producer, producer, and creative director, ad consultant, and director. </p>
-    "
-  signature: "assets/img/signature.png"
-  name: "CEO, Vishnu Jayaprakash"
-  button: "Meet The Team"
-  link: "/team/"
-  image: "assets/img/about.jpg"
+
+
+### Discovery [ discover ]
+discovery:
+  enable: true
+  title: "We understand your needs and develops the most effective campaigns at the right stage."
+  subtitle: "How we work"
+  description: "Our pioneering R&D department at Vishonik delves deep into the psyche of your clients, analyzing your requirements and crafting tailor-made ads that cater to their speciﬁc needs."
+  items:
+    - title: Information - Helps potential customers to be aware of your brand.
+    - title: Attraction - Building a connection for your clients with your brand.
+    - title: Attachment - Helps them fall in love with your brand.
+    - title: Programming - Increase brand recall and associate core product/service with your brand.
+    - title: Re-programming - Helps you reinvent your brand with a new proposition.
+
+  button: "View Portfolio"
+  link: "/portfolio/"
+  featured_image: "assets/img/vishonik/rand.jpg"
+  featured_icon: "assets/img/icon-discovery.svg"
+  featured_title: "Performance Marketing"
+  featured_text: "Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed pretium, ligula sollicitudin.Nullam mollis. Ut justo. Suspendisse potenti."
+
 
 
 ### Contact Form Map [ contact-form-map ]
@@ -292,25 +317,25 @@ contact_form_map:
       type: "link"
       link: "mailto:vishonikfilms@gmail.com"
 
-    - label: "Follow us :"
-      value: ""
-      type: "icons"
-      icons:
-        - icon: "fa-brands fa-facebook-f"
-          link: "https://facebook.com/"
-          title: "Facebook"
+    # - label: "Follow us :"
+    #   value: ""
+    #   type: "icons"
+    #   icons:
+    #     - icon: "fa-brands fa-facebook-f"
+    #       link: "https://facebook.com/"
+    #       title: "Facebook"
         
-        - icon: "fa-brands fa-twitter"
-          link: "https://twitter.com/"
-          title: "Twitter"
+    #     - icon: "fa-brands fa-twitter"
+    #       link: "https://twitter.com/"
+    #       title: "Twitter"
         
-        - icon: "fa-brands fa-instagram"
-          link: "https://instagram.com/"
-          title: "Instagram"
+    #     - icon: "fa-brands fa-instagram"
+    #       link: "https://instagram.com/"
+    #       title: "Instagram"
 
-        - icon: "fa-brands fa-linkedin-in"
-          link: "https://linkedin.com/"
-          title: "Linkedin"
+    #     - icon: "fa-brands fa-linkedin-in"
+    #       link: "https://linkedin.com/"
+    #       title: "Linkedin"
 
 # ### Testimonial One [ testimonial-one ]
 # testimonial_one:
@@ -1012,18 +1037,18 @@ team_grid:
 #    Services     #
 ###################
 
-### Discovery [ discover ]
-discovery:
-  enable: true
-  title: "Sales Strategy and Conversion Optimization"
-  subtitle: "Designed to Grow Your Business"
-  description: "Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel dapibusid, mattis velnisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh."
-  button: "View Portfolio"
-  link: "/portfolio/"
-  featured_image: "assets/img/discovery.jpg"
-  featured_icon: "assets/img/icon-discovery.svg"
-  featured_title: "Performance Marketing"
-  featured_text: "Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed pretium, ligula sollicitudin.Nullam mollis. Ut justo. Suspendisse potenti."
+# ### Discovery [ discover ]
+# discovery:
+#   enable: true
+#   title: "Sales Strategy and Conversion Optimization"
+#   subtitle: "Designed to Grow Your Business"
+#   description: "Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel dapibusid, mattis velnisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh."
+#   button: "View Portfolio"
+#   link: "/portfolio/"
+#   featured_image: "assets/img/discovery.jpg"
+#   featured_icon: "assets/img/icon-discovery.svg"
+#   featured_title: "Performance Marketing"
+#   featured_text: "Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed pretium, ligula sollicitudin.Nullam mollis. Ut justo. Suspendisse potenti."
 
 ### Services Grid [ services-grid ]
 services_grid:

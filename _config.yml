@@ -33,7 +33,7 @@ title: "Vishonik Films"
 email: "vishonikfilms@gmail.com"
 description: "Where your brand comes to life "
 author: "Vishnu"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vishonikfilms.com" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%d %B %Y"
 

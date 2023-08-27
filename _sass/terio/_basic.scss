@@ -1955,6 +1955,16 @@ ul.sidebar .brandicon {
     padding-top: 20px;
     padding-bottom: 35px;
 }
+
+.randsection{
+    padding-left: 20px;
+}
+.randsection li{
+    display: list-item;
+    list-style-type: disc;
+    color: #666;
+}
+
 .discovery-text{
     background-color: $bg_color_three;
     padding: 30px 80px;

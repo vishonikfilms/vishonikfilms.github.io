@@ -1,0 +1,82 @@
+# Theme Settings Configuration File
+##
+### use settings.yml file for configure colors, ui, rtl, sidebar, animation options
+
+### Main Settings
+general:
+  introBackground: "/assets/img/background.jpg"
+  headerBackground: "/assets/img/header.jpg"
+
+### Header
+header:
+  logo:
+    image: "assets/img/logo.png"
+    alt: "logo"
+    title: "Vishonik Films"
+  button:
+    text: "Get Started"
+    link: "#"
+
+### Social
+social:
+  - title: "Facebook"
+    icon: "fa-brands fa-facebook-f"
+    url: "https://www.facebook.com/"
+
+  - title: "Twitter"
+    icon: "fa-brands fa-twitter"
+    url: "https://www.twitter.com/"
+
+  - title: "Instagram"
+    icon: "fa-brands fa-instagram"
+    url: "https://www.instagram.com/"
+
+  - title: "Medium"
+    icon: "fa-solid fa-m"
+    url: "https://www.medium.com/"
+
+  - title: "Linkedin"
+    icon: "fa-brands fa-linkedin-in"
+    url: "https://www.linkedin.com/"
+
+### Footer
+footer:
+  description: "We are a leading ad ﬁlm production house dedicated to delivering captivating and compelling visual stories that captivate audiences worldwide."
+  copyright: "Vishonik Films - All Rights Reserved"
+
+  menu:
+    title: "Additional Links"
+    list:
+      - title: "About Us"
+        link: "/about/"
+
+      - title: "Services"
+        link: "/services/"
+
+      - title: "Team"
+        link: "/team/"
+
+  news:
+    title: "Latest News"
+    numOfItems: 0
+
+  subscribe:
+    title: "Subscribe"
+    text: "Subscribe to our newsletter."
+
+  mailchimp:
+    url: "" #YOUR MAILCHIMP EMBED FORM URL [form action=""]
+    key: "" #YOUR MAILCHIMP EMBED FORM KEY VALUE [input hidden name=""]
+
+### Portfolio Filters Settings
+portfolio:
+  homeNumOfItems: 12
+  filters:
+    - name: "Design"
+      slug: "design"
+
+    - name: "Print"
+      slug: "print"
+
+    - name: "Branding"
+      slug: "branding"

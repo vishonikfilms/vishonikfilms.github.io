@@ -48,13 +48,13 @@ footer:
     title: "Additional Links"
     list:
       - title: "About Us"
-        link: "/about/"
+        link: "/about-new/"
 
       - title: "Services"
-        link: "/services/"
+        link: "/services-new/"
 
       - title: "Team"
-        link: "/team/"
+        link: "/team-new/"
 
   news:
     title: "Latest News"

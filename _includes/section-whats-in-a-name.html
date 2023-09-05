@@ -1,0 +1,15 @@
+{% assign content = site.data.content['whats_in_a_name'] %}
+
+<section class="whats-in-a-name">
+  <div class="container-fluid p-0">
+      <img class="crop-image" alt="img" src="{{ content.image | absolute_url }}">
+      <div class="container text-center">
+        <div class="heading">
+          <img alt="line" src="/assets/images/headingline.png">
+          <h1>{{ content.title | safeHTML }}</h1>
+          <h3>{{ content.subtitle | safeHTML }}</h3>
+        </div>
+      </div>
+
+  </div>
+</section>

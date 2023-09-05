@@ -298,6 +298,22 @@ figure {
     content: "";
     background-image: url(../images/text-line-w.png);
 }
+
+ .crop-image{
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    max-height: 500px;
+    margin-bottom: 1rem;
+}
+.whats-in-a-name{
+    padding-bottom: 120px;
+    background-color: #f2edf5;
+}
+.whats-in-a-name .heading-boder h2 {
+    color: $white_color;
+}
+   
 /* 4. small-services */
 .small-services svg,
 .small-services img {
@@ -1752,8 +1768,32 @@ section.why-choose-us .heading-boder h2{
     left: 48%;
 }
 .services-two .style-shapes-5{
-    right: 6%;
+    right: 9%;
 }
+
+.services-first{
+    background-color: #f2edf5;
+}
+
+.services-second{
+    position: relative;
+}
+.services-second .style-shapes-4 {
+    left: 4%;
+    top: 64%;
+}
+.services-second .style-shapes-6 {
+    top: 48%;
+    left: 4%;
+}
+.services-second .style-shapes-7 {
+    right: 90% ;
+    top: 24%;
+}
+.services-second .style-shapes-5{
+    right: 52%;
+}
+
 /* 34. satisfied-clients */
 .satisfied-clients .heading-boder h2 {
     width: 69%;
@@ -3194,3 +3234,18 @@ form.content-form input.error, form.content-form textarea.error {
 .blog-posts-text > p + .dots {
     display: inline;
 }
+
+
+.circle {
+    background: #e3e3e3;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #6e6e6e;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 40px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+  }

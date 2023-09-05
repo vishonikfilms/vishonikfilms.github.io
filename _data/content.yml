@@ -18,58 +18,79 @@ hero_one:
   title: "Vishonik Films"
   description: "
    Where your brand comes to life
-
   "
   button: "More Services"
   link: "#"
   image: "assets/img/vishonik/banner.jpg"
 
-### Hero Under [ hero-under ]
-hero_under:
-  items:
-    - title: "Research And Discovery"
-      subtitle: "Morbi interdum mollis sapien."
-      link: "#"
-      image: "assets/img/serv-u-1.svg"
-
-    - title: "Planning For The Future"
-      subtitle: "Phasellus lacinia, ullamcorper laoreet."
-      link: "#"
-      image: "assets/img/serv-u-2.svg"
-
-    - title: "Building Your Brand"
-      subtitle: "Pulvinar risus, vitae facilisis dolor."
-      link: "#"
-      image: "assets/img/serv-u-3.svg"
-
 ### Marketing One [ marketing-one ]
 marketing_one:
-  image: "assets/img/vishonik/shooting.jpg"
-  title: "Vishonik Films: Where Creativity, Innovation, and Imagination Unite"
-  subtitle: "What We Do"
-  intro: "Unveiling a New Dimension in Visual Storytellings"
-  description: "At Vishonik Films, we don't just create ads; we craft captivating visual narratives that transcend boundaries and resonate with audiences on a profound level. Our commitment to pushing the boundaries of creative expression is matched only by our dedication to technical excellence."
+  image: "assets/img/vishonik/headphone.jpg"
+  title: "Vishonik Films"
+  subtitle: ""
+  intro: "Welcome to the world of Visionik, where creativity meets innovation and imagination comes to life!"
+  description: "We are a leading ad ﬁlm production house dedicated to delivering captivating and compelling visual stories that captivate audiences worldwide."
   button: "Discover More"
   link: "#"
 
+
+### Whats In A Name [ whats-in-a-name ]
+whats_in_a_name:
+  image: "assets/img/vishonik/whats_in_a_name.jpg"
+  title: "What’s in a name?"
+  subtitle: "We help you envision “Nik”; the epitome of perfection and creativity."
 
 
 ### Projects Carousel Two [ projects-carousel-two ]
 services_two:
   title: "Vision"
-  subtitle: "Precision in Every Creative Endeavor."
+  subtitle: ""
   list:
-    - label: "A Symphony of Professionalism"
-      value: "At the core of our ethos is an unwavering commitment to professionalism. With every project we undertake, we infuse a level of sophistication and dedication that guarantees a seamless and refined outcome."
-    
-    - label: "Mastering Technical Proficiency"
-      value: "Our journey is driven by technical excellence. Through a profound mastery of our craft, we elevate every project to new heights, ensuring that each detail is flawlessly executed and meticulously polished."
-
-    - label: "Detail as a Signature"
-      value: "It's in the details where true brilliance emerges. Our passion lies in the meticulous attention we dedicate to every aspect of your project. This dedication ensures that every creation stands as a testament to our commitment to excellence."
+    - label: "Our team brings an unparalleled level of professionalism, technical proficiency, and attention to detail to every project, ensuring seamless execution from concept to completion."
+      value: "Collaboration lies at the heart of our approach. We take the time to understand your brand, your objectives, and your target audience. By working closely with you, we ensure that every project is tailor-made to suit your unique needs and aspirations."
   
   image1: "assets/img/vishonik/welcome-1.jpg"
   image2: "assets/img/vishonik/welcome-2.jpg"
+  button: "More Services"
+  link: "/services/"
+
+
+
+### Projects Carousel Two [ projects-carousel-two ]
+services_first:
+  title: "Services"
+  subtitle: ""
+  list:
+    - title: "TV commercial"
+      label: "1"
+    - title: "Theatre advertisement"
+      label: "2"
+    - title: "Digital Film"
+      label: "3"
+    - title: "Corporate Video"
+      label: "4"
+    - title: "Photoshoot"
+      label: "5"
+
+  
+  image1: "assets/img/vishonik/services-first.png"
+  button: "More Services"
+  link: "/services/"
+
+### Projects Carousel Two [ projects-carousel-two ]
+services_second:
+  title: "Services"
+  subtitle: ""
+  list:
+    - title: "Talent Management"
+      label: "6"
+    - title: "Social media Reels"
+      label: "7"
+    - title: "Influencer branding"
+      label: "8"
+
+  
+  image1: "assets/img/vishonik/services-second.png"
   button: "More Services"
   link: "/services/"
 
@@ -87,9 +108,10 @@ about_one:
   image: "assets/img/about.jpg"
 
 
+
 ### Brands [ brands-two ]
-brands_two:
-  title: "Associated Clients."
+clients:
+  title: "Associated Clients"
   items:
     - title: "Brand"
       alt: "brand"
@@ -289,7 +311,7 @@ discovery:
 
   button: "View Portfolio"
   link: "/portfolio/"
-  featured_image: "assets/img/vishonik/rand.jpg"
+  featured_image: "assets/img/vishonik/how_we_work.jpg"
   featured_icon: "assets/img/icon-discovery.svg"
   featured_title: "Performance Marketing"
   featured_text: "Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed pretium, ligula sollicitudin.Nullam mollis. Ut justo. Suspendisse potenti."
@@ -633,42 +655,42 @@ hero_slider_two:
       button: "More Services"
       link: "/services/"
 
-### Clients [ clients ]
-clients:
-  title: "See the clients we've delivered experiences for and how we did it."
-  subtitle: "Pellentesque aliquet nibh nec urna."
-  items:
-    - image: "assets/img/brand-1.png"
-      title: "Company"
-      alt: "Company"
+# ### Clients [ clients ]
+# clients:
+#   title: "See the clients we've delivered experiences for and how we did it."
+#   subtitle: "Pellentesque aliquet nibh nec urna."
+#   items:
+#     - image: "assets/img/brand-1.png"
+#       title: "Company"
+#       alt: "Company"
 
-    - image: "assets/img/brand-2.png"
-      title: "Company"
-      alt: "Company"
+#     - image: "assets/img/brand-2.png"
+#       title: "Company"
+#       alt: "Company"
 
-    - image: "assets/img/brand-3.png"
-      title: "Company"
-      alt: "Company"
+#     - image: "assets/img/brand-3.png"
+#       title: "Company"
+#       alt: "Company"
 
-    - image: "assets/img/brand-4.png"
-      title: "Company"
-      alt: "Company"
+#     - image: "assets/img/brand-4.png"
+#       title: "Company"
+#       alt: "Company"
 
-    - image: "assets/img/brand-5.png"
-      title: "Company"
-      alt: "Company"
+#     - image: "assets/img/brand-5.png"
+#       title: "Company"
+#       alt: "Company"
 
-    - image: "assets/img/brand-6.png"
-      title: "Company"
-      alt: "Company"
+#     - image: "assets/img/brand-6.png"
+#       title: "Company"
+#       alt: "Company"
 
-    - image: "assets/img/brand-7.png"
-      title: "Company"
-      alt: "Company"
+#     - image: "assets/img/brand-7.png"
+#       title: "Company"
+#       alt: "Company"
 
-    - image: "assets/img/brand-8.png"
-      title: "Company"
-      alt: "Company"
+#     - image: "assets/img/brand-8.png"
+#       title: "Company"
+#       alt: "Company"
 
 ### Why Choose Us [ why-choose-us ]
 why_choose_us:

@@ -7,9 +7,9 @@
 
 main:
   # Home
-  - title: "Home"
-    url: "/"
-    parent: 0
+  # - title: "Home"
+  #   url: "/"
+  #   parent: 0
     # childs:
     #     - title: "Home One"
     #       url: "/"

@@ -3,13 +3,16 @@
 <section class="gap">
   <div class="container">
     <div class="our-clients">
-      <h4>{{ content.title | safeHTML }}</h4>
+      <h2>{{ content.title | safeHTML }}</h2>
       <span>{{ content.subtitle | safeHTML }}</span>
-      <ul>
+      <div class="row">
         {% for item in content.items %}
-        <li><img alt="{{ .alt }}" src="{{ item.image | absolute_url }}" title="{{ item.title }}"></li>
+        <div class="p-5 col-md-3 col-lg-2"><img alt="{{ .alt }}" src="{{ item.image | absolute_url }}" title="{{ item.title }}"></div>
         {% endfor %}
       </ul>
     </div>
+  </div>
+  <div class="btugap">
+    <a href="{{ content.link }}" class="themebtu" target="_blank">{{ content.button }}</a>
   </div>
 </section>

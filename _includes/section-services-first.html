@@ -1,0 +1,44 @@
+{% assign content = site.data.content['services_first'] %}
+
+<section class="gap services-two services-first" >
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6">
+        <div class="heading">
+            <h2>{{ content.title | safeHTML }}</h2>
+            <img alt="line" class="mb-4" src="/assets/images/headingline.png">
+        </div>
+        <div class="welcome-text">
+          {% for item in content.list %}
+          <div class="p-2 row">
+            <div class="circle col-6">{{ item.label | safeHTML }}</div>
+            <div class="col-6">
+              <h4 class="pb-0 pl-5 mb-0">{{ item.title | safeHTML }}</h4>
+            </div>
+          </div>
+          {% endfor %}
+          <!-- <a href="{{ content.link }}" class="themebtu">{{ content.button }}</a> -->
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="welcome two">
+          <img class="img-fluid" alt="img" src="{{ content.image1 | absolute_url }}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tp-hero__shapes">
+    <div class="style-shapes-4">
+      <img alt="dots1" src="/assets/images/dots1.png">
+    </div>
+    <div class="style-shapes-5">
+      <img alt="dots1" src="/assets/images/shap-3.png">
+    </div>
+    <div class="style-shapes-6">
+      <img alt="dots1" src="/assets/images/shap-2.png">
+    </div>
+    <div class="style-shapes-7">
+      <img alt="dots1" src="/assets/images/shap-5.png">
+    </div>
+  </div>
+</section>

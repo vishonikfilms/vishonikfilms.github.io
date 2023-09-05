@@ -71,28 +71,33 @@ services_first:
       label: "4"
     - title: "Photoshoot"
       label: "5"
-
-  
-  image1: "assets/img/vishonik/services-first.png"
-  button: "More Services"
-  link: "/services/"
-
-### Projects Carousel Two [ projects-carousel-two ]
-services_second:
-  title: "Services"
-  subtitle: ""
-  list:
     - title: "Talent Management"
       label: "6"
     - title: "Social media Reels"
       label: "7"
     - title: "Influencer branding"
       label: "8"
-
   
-  image1: "assets/img/vishonik/services-second.png"
+  image1: "assets/img/vishonik/services-first.png"
   button: "More Services"
   link: "/services/"
+
+# ### Projects Carousel Two [ projects-carousel-two ]
+# services_second:
+#   title: "Services"
+#   subtitle: ""
+#   list:
+#     - title: "Talent Management"
+#       label: "6"
+#     - title: "Social media Reels"
+#       label: "7"
+#     - title: "Influencer branding"
+#       label: "8"
+
+  
+#   image1: "assets/img/vishonik/services-second.png"
+#   button: "More Services"
+#   link: "/services/"
 
 ### About One [ about-one ]
 about_one:

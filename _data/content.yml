@@ -21,7 +21,7 @@ hero_one:
   "
   button: "More Services"
   link: "#"
-  image: "assets/img/vishonik/banner.jpg"
+  image: "assets/img/vishonik/banner-1.jpg"
 
 ### Marketing One [ marketing-one ]
 marketing_one:
@@ -29,14 +29,14 @@ marketing_one:
   title: "Vishonik Films"
   subtitle: ""
   intro: "Welcome to the world of Visionik, where creativity meets innovation and imagination comes to life!"
-  description: "We are a leading ad ﬁlm production house dedicated to delivering captivating and compelling visual stories that captivate audiences worldwide."
+  description: "We are a leading ad film production house dedicated to delivering captivating and compelling visual stories that captivate audiences worldwide."
   button: "Discover More"
   link: "#"
 
 
 ### Whats In A Name [ whats-in-a-name ]
 whats_in_a_name:
-  image: "assets/img/vishonik/whats_in_a_name.jpg"
+  image: "assets/img/vishonik/whats-in-a-name.jpg"
   title: "What’s in a name?"
   subtitle: "We help you envision “Nik”; the epitome of perfection and creativity."
 
@@ -46,11 +46,22 @@ services_two:
   title: "Vision"
   subtitle: ""
   list:
+    - label: "Collaboration lies at the heart of our approach. We take the time to understand your brand, your objectives, and your target audience. By working closely with you, we ensure that every project is tailor-made to suit your unique needs and aspirations."
+      value: ""
+  
+  image1: "assets/img/vishonik/vision-2.jpg"
+  button: "More Services"
+  link: "/services/"
+
+### Teams [ teams ]
+teams:
+  title: "Teams"
+  subtitle: ""
+  list:
     - label: "Our team brings an unparalleled level of professionalism, technical proficiency, and attention to detail to every project, ensuring seamless execution from concept to completion."
       value: "Collaboration lies at the heart of our approach. We take the time to understand your brand, your objectives, and your target audience. By working closely with you, we ensure that every project is tailor-made to suit your unique needs and aspirations."
   
-  image1: "assets/img/vishonik/welcome-1.jpg"
-  image2: "assets/img/vishonik/welcome-2.jpg"
+  image1: "assets/img/vishonik/teams.jpg"
   button: "More Services"
   link: "/services/"
 
@@ -78,7 +89,7 @@ services_first:
     - title: "Influencer branding"
       label: "8"
   
-  image1: "assets/img/vishonik/services-first.png"
+  image1: "assets/img/vishonik/services-2.jpg"
   button: "More Services"
   link: "/services/"
 
@@ -164,6 +175,50 @@ clients:
       image: "assets/img/brands/walkaroo.png"
   button: "Previous Works"
   link: "https://www.youtube.com/@VishnuJayaprakash/videos"
+
+
+### Discovery [ discover ]
+discovery:
+  enable: true
+  title: "We understand your needs and develops the most effective campaigns at the right stage."
+  subtitle: "How we work"
+  description: "Our pioneering R&D department at Vishonik delves deep into the psyche of your clients, analyzing your requirements and crafting tailor-made ads that cater to their speciﬁc needs."
+  items:
+    - title: Information - Helps potential customers to be aware of your brand.
+    - title: Attraction - Building a connection for your clients with your brand.
+    - title: Attachment - Helps them fall in love with your brand.
+    - title: Programming - Increase brand recall and associate core product/service with your brand.
+    - title: Re-programming - Helps you reinvent your brand with a new proposition.
+
+  button: "View Portfolio"
+  link: "/portfolio/"
+  featured_image: "assets/img/vishonik/how-we-work.jpg"
+  featured_icon: "assets/img/icon-discovery.svg"
+  featured_title: "Performance Marketing"
+  featured_text: "Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed pretium, ligula sollicitudin.Nullam mollis. Ut justo. Suspendisse potenti."
+
+
+### Contact Form Map [ contact-form-map ]
+contact_form_map:
+  title: "Connect with us"
+  subtitle: "We are here for you."
+  description: What sets Vishonik apart is our unwavering commitment to pushing the boundaries of creativity. We believe in going beyond the expected, crafting narratives that evoke emotions, spark conversations, and leave a lasting impression."
+  map_iframe: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62862.160735846075!2d76.23417946888006!3d10.026344011182243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080da53444d5e9%3A0xb46c57c6b1bc9aff!2sEdappally%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1693132515005!5m2!1sen!2sin' width='800' height='600' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+  info:
+    - label: "Address :"
+      value: "Vishonik Films <br>Edappally,Kochi <br>Kerala<br>682024"
+      type: "text"
+
+    - label: "Phone :"
+      value: "+91 9496948067"
+      type: "link"
+      link: "tel:919496948067"
+    
+    - label: "Email :"
+      value: "vishonikfilms@gmail.com"
+      type: "link"
+      link: "mailto:vishonikfilms@gmail.com"
+
 
 
 ### Services [ services ]
@@ -301,48 +356,9 @@ benefits_two:
 
 
 
-### Discovery [ discover ]
-discovery:
-  enable: true
-  title: "We understand your needs and develops the most effective campaigns at the right stage."
-  subtitle: "How we work"
-  description: "Our pioneering R&D department at Vishonik delves deep into the psyche of your clients, analyzing your requirements and crafting tailor-made ads that cater to their speciﬁc needs."
-  items:
-    - title: Information - Helps potential customers to be aware of your brand.
-    - title: Attraction - Building a connection for your clients with your brand.
-    - title: Attachment - Helps them fall in love with your brand.
-    - title: Programming - Increase brand recall and associate core product/service with your brand.
-    - title: Re-programming - Helps you reinvent your brand with a new proposition.
-
-  button: "View Portfolio"
-  link: "/portfolio/"
-  featured_image: "assets/img/vishonik/how_we_work.jpg"
-  featured_icon: "assets/img/icon-discovery.svg"
-  featured_title: "Performance Marketing"
-  featured_text: "Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis velnisi. Sed pretium, ligula sollicitudin.Nullam mollis. Ut justo. Suspendisse potenti."
 
 
 
-### Contact Form Map [ contact-form-map ]
-contact_form_map:
-  title: "Connect with us"
-  subtitle: "We are here for you."
-  description: What sets Vishonik apart is our unwavering commitment to pushing the boundaries of creativity. We believe in going beyond the expected, crafting narratives that evoke emotions, spark conversations, and leave a lasting impression."
-  map_iframe: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62862.160735846075!2d76.23417946888006!3d10.026344011182243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080da53444d5e9%3A0xb46c57c6b1bc9aff!2sEdappally%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1693132515005!5m2!1sen!2sin' width='800' height='600' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
-  info:
-    - label: "Address :"
-      value: "Vishonik Films <br>Edappally,Kochi <br>Kerala<br>682024"
-      type: "text"
-
-    - label: "Phone :"
-      value: "+91 9496948067"
-      type: "link"
-      link: "tel:919496948067"
-    
-    - label: "Email :"
-      value: "vishonikfilms@gmail.com"
-      type: "link"
-      link: "mailto:vishonikfilms@gmail.com"
 
     # - label: "Follow us :"
     #   value: ""

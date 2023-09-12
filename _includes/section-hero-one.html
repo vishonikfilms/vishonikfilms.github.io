@@ -1,10 +1,11 @@
 {% assign content = site.data.content['hero_one'] %}
 
 <section class="hero-section-one" style="background-image: url('{{ content.image | absolute_url }}')">
+  <div class="hero-section-one-overlay"></div>
   <div class="container">
     <div class="heading-boder">
-      <h2 class="w-100 text-center">{{ content.title | safeHTML }}</h2>
-      <p class="text-center">{{ content.description | safeHTML }}</p>
+      <h2 class="w-100 text-center" style="font-size: 6rem;">{{ content.title | safeHTML }}</h2>
+      <h3 class="text-center pt-5" style="color:#fff;position: relative; z-index: 10;">{{ content.description | safeHTML }}</h3>
       <!-- <a href="{{ content.link }}" class="themebtu full">{{ content.button }}</a> -->
     </div>
   </div>

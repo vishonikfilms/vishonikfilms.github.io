@@ -2,7 +2,7 @@
 {% assign ui_text = site.data.ui-text['ui_text'] %}
 {% assign $action = site.formspree_endpoint %}
 
-<section class="gap map-three">
+<section class="gap map-three"  style="background-color :#f2edf5">
   <div class="container">
     <div class="row">
       <div class="col-xl-6">
@@ -12,30 +12,7 @@
           <img alt="line" src="/assets/images/headingline.png">
           <p>{{ content.description | safeHTML }}</p>
         </div>
-        <div class="col-xl-5 col-lg-5" style="padding-top:10px ;">
-          <ul class="sidebar">
-            {% for item in content.info %}
-            <li>
-              <h4>{{ item.label | safeHTML }}</h4>
-              {% if item.type == "link" or item.type == "text" %}
-              {% if item.type == "link" %}<a href="{{ item.link }}" target="_blank">{% endif %}
-                <span>
-                  {{ item.value | safeHTML }}
-                </span>
-              {% if item.type == "link" %}</a>{% endif %}
-              {% endif %}
-              {% if item.type == "icons" %}
-                <ul class="brandicon">
-                  {% for link in item.icons %}
-                  <li><a href="{{ link.link }}" target="_blank" title="{{ link.title }}"><i class="{{ link.icon }}"></i></a></li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-          <!-- <form method="post" id="cform-2" action="{{ $action }}" class="touch two">
+          <form method="post" id="cform-2" action="{{ $action }}" class="touch two">
             <div class="row">
               <div class="col-lg-4">
                   <input type="text" name="name" placeholder="{{ ui_text.your_name }}">
@@ -53,12 +30,34 @@
                 <a href="#" class="themebtu full" onclick="$('#cform-2').submit(); return false;">{{ ui_text.send_message }}</a>
               </div>
             </div>
-          </form> -->
+          </form>
+
       </div>
       <div class="offset-xl-1 col-xl-5">
-        <div class="map">
+        <!-- <div class="map">
           {{ content.map_iframe | markdownify }}
-        </div>
+        </div> -->
+        <ul class="sidebar">
+          {% for item in content.info %}
+          <li>
+            <h4>{{ item.label | safeHTML }}</h4>
+            {% if item.type == "link" or item.type == "text" %}
+            {% if item.type == "link" %}<a href="{{ item.link }}" target="_blank">{% endif %}
+              <span>
+                {{ item.value | safeHTML }}
+              </span>
+            {% if item.type == "link" %}</a>{% endif %}
+            {% endif %}
+            {% if item.type == "icons" %}
+              <ul class="brandicon">
+                {% for link in item.icons %}
+                <li><a href="{{ link.link }}" target="_blank" title="{{ link.title }}"><i class="{{ link.icon }}"></i></a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

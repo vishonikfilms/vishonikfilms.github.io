@@ -7,7 +7,7 @@
       <span>{{ content.subtitle | safeHTML }}</span>
       <div class="row">
         {% for item in content.items %}
-        <div class="p-5 col-md-3 col-lg-2"><img alt="{{ .alt }}" src="{{ item.image | absolute_url }}" title="{{ item.title }}"></div>
+        <div class="p-5 col-md-3 col-lg-2"><img alt="{{ .alt }}" data-src="{{ item.image | absolute_url }}" title="{{ item.title }}" class="lazyload"></div>
         {% endfor %}
       </ul>
     </div>

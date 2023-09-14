@@ -16,7 +16,7 @@
           {{ content.text | safeHTML }}
           <div class="ceo">
             <div>
-              <img alt="img" src="{{ content.signature | absolute_url }}">
+              <img class="lazyload" data-src="{{ content.signature | absolute_url }}">
               <span>{{ content.name }}</span>
             </div>
             <!-- <a href="{{ content.link }}" class="themebtu">{{ content.button }}</a> -->

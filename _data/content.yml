@@ -55,7 +55,7 @@ services_two:
 
 ### Teams [ teams ]
 teams:
-  title: "Teams"
+  title: "Team"
   subtitle: ""
   list:
     - label: "Our team brings an unparalleled level of professionalism, technical proficiency, and attention to detail to every project, ensuring seamless execution from concept to completion."
